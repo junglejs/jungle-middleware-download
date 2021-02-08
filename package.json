@@ -1,0 +1,25 @@
+{
+  "name": "jungle-middleware-download",
+  "version": "0.0.1",
+  "description": "JungleJS middleware to download files (assets)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junglejs/jungle-middleware-download.git"
+  },
+  "keywords": [
+    "junglejs"
+  ],
+  "author": "Hendrik Roth <hi@hendrikroth.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junglejs/jungle-middleware-download/issues"
+  },
+  "homepage": "https://github.com/junglejs/jungle-middleware-download#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
