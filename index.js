@@ -4,7 +4,7 @@ const path = require('path');
 const util = require('util');
 const stream = require('stream');
 
-const WORKDIR = process.cwd() + '/static/';
+const WORKDIR = process.cwd() + '/jungle/build';
 
 async function download({destination, url, filename, cache = true, headers = {}}) {
     if (!destination) throw new Error('Please provide a destination');
